@@ -218,3 +218,87 @@ a {
 .movement-drescription {
     padding: 0;
 }
+
+/* Run an Extra related style */
+.run-extra-container {
+    align-items: start;
+    background-color: rgb(61, 60, 60);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.run-extra-image {
+    text-align: end;
+}
+
+.run-extra-image img {
+    border-radius: 10px;
+}
+
+.run-drescription {
+    margin-bottom: 0;
+}
+
+/* Training and Exercises related style */
+.exercise-images-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.exercise-drescription {
+    position: relative;
+    font-size: 1rem;
+    margin-top: -150px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+
+
+}
+
+.exercise-img img {
+    width: 100%;
+    height: 100%;
+    filter: opacity(60%);
+
+
+}
+
+/* BMI Calculator related styles*/
+.bmi-clculator {
+    background-color: rgba(68, 70, 70, 0.454);
+    padding: 50px 10px 100px;
+}
+
+.calculator-drescription {
+    padding: 0;
+}
+
+.bmi-calculator-containers {
+    align-items: start;
+    margin-top: 50px;
+
+}
+
+.bmi-table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid rgb(72, 72, 71);
+    padding: 10px 25px;
+}
+
+.your-bmi-input {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+input,
+select {
+    padding: 12px 70px 12px 20px;
+    border: 0px solid black;
+    border-radius: 8px;
+    background-color: rgba(68, 70, 70, 0.454);
+    color: rgba(255, 255, 255, 0.6);
+}
