@@ -302,3 +302,310 @@ select {
     background-color: rgba(68, 70, 70, 0.454);
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* Meet Our Team */
+.our-team-details {
+    padding: 0 300px;
+}
+
+.our-team-containers {
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 18px;
+    gap: 18px;
+    border-radius: 10px;
+}
+
+.team-drescription {
+    padding: 0;
+}
+
+.our-team-image img {
+    height: 98%;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.triner-name,
+.triner-drescription {
+    color: rgb(211, 189, 231);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -80px;
+}
+
+.triner-name {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.triner-drescription {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -50px;
+}
+
+
+/* footer related styles */
+footer {
+    background-color: rgb(46, 49, 49);
+    padding: 30px 0px;
+}
+
+.footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: start;
+}
+
+.footer-fitness {
+    width: 450px;
+}
+
+.footer-title {
+    font-size: 4.37rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.started-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer-item {
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+
+.footer-item>a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+}
+
+.started-container {
+    justify-content: space-around;
+}
+
+.hr-border {
+    margin-top: 50px;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-text {
+    margin-top: 25px;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+
+.footer-drescription {
+    padding: 0;
+    margin-top: 0;
+}
+
+/* responsive style */
+@media screen and (max-width:576px) {
+    #fa-bars {
+        display: block;
+    }
+
+    .section-top {
+        margin-top: 50px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .sevillana-regular {
+        font-size: 2.50rem;
+    }
+
+
+    .btn-primary {
+        padding: 12px 30px;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .nav-element {
+        display: none;
+    }
+
+    .banner-title {
+        font-size: 2.25rem;
+        text-align: start;
+    }
+
+    #banar-sub-title {
+        text-align: start;
+        padding-right: 0;
+    }
+
+    .banner,
+    .run-extra-container,
+    .started-container,
+    .bmi-calculator-containers {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .stay-health {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .stay-health img {
+        width: 60%;
+        margin-left: 0px;
+    }
+
+
+    .video-tutorial {
+        margin-top: -130px;
+        margin-left: 60px;
+    }
+
+    .video-tutorial-second {
+        margin-top: -300px;
+        margin-left: 200px;
+    }
+
+
+
+    .habit-details,
+    .our-team-details {
+        padding: 0 0px;
+    }
+
+    .display-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .run-extra-detail,
+    .bmi-clculator {
+        text-align: center;
+    }
+
+    .run-drescription {
+        padding-right: 0;
+    }
+
+    #trading-sub-title,
+    #chart-sub-title {
+        padding-right: 0;
+    }
+
+    .run-extra-image {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .run-extra-image img {
+        width: 100%;
+    }
+
+    .footer-fitness {
+        width: 100%;
+    }
+
+    .footer-container {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    .section-top {
+        margin-top: 50px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .banner-title {
+        text-align: start;
+    }
+
+    #banar-sub-title {
+        text-align: start;
+        padding-right: 0;
+    }
+
+    .banner,
+    .started-container,
+    .bmi-calculator-containers {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .stay-health {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .stay-health img {
+        width: 60%;
+        margin-left: 0px;
+    }
+
+
+    .video-tutorial {
+        margin-top: -130px;
+        margin-left: 60px;
+    }
+
+    .video-tutorial-second {
+        margin-top: -300px;
+        margin-left: 200px;
+    }
+
+
+
+    .habit-details,
+    .our-team-details {
+        padding: 0 0px;
+    }
+
+    .display-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bmi-clculator {
+        text-align: center;
+    }
+
+    .run-drescription {
+        padding-right: 0;
+    }
+
+    #trading-sub-title,
+    #chart-sub-title {
+        padding-right: 0;
+    }
+
+    .run-extra-image {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .run-extra-image img {
+        width: 100%;
+    }
+
+    .chart-title {
+        margin-top: 50px;
+    }
+
+    .footer-fitness {
+        width: 100%;
+    }
+
+    .footer-container {
+        text-align: center;
+    }
+}
