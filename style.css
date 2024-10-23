@@ -1,0 +1,220 @@
+/* google fonts */
+.inter-fonts {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+/* other fonts  */
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+body {
+    margin: 0 0;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+#fa-bars {
+    display: none;
+}
+
+.header-bg {
+    background-color: rgba(17, 17, 17, 1);
+}
+
+.max-width {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.nav-btn {
+    padding: 8px 20px;
+    border-radius: 42px;
+    background-color: #E6533C;
+    border: 0;
+    color: rgb(244, 244, 244);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary {
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: #E6533C;
+    border: 0;
+    color: rgb(244, 244, 244);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.dwn-btn {
+    background-color: rgba(17, 17, 17, 1);
+    border: 1px solid #FFFFFF;
+}
+
+.section-top {
+    margin-top: 150px;
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #E6533C;
+}
+
+.nav-element {
+    border: 1px solid rgb(75, 67, 67);
+    border-radius: 30px;
+    padding: 2px 20px 2px 2px;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-element>li {
+    list-style: none;
+}
+
+.nav-element>li>button,
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar {
+    margin-bottom: 40px;
+}
+
+.banner-title {
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.drescription {
+    margin-top: 0;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-right: 150px;
+}
+
+/* banner related style */
+.stay-health {
+    width: 100%;
+}
+
+.stay-health img {
+    margin-left: 200px;
+    width: 70%;
+}
+
+.tutorial-title {
+    margin: 10px -15px 0 0;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.video-tutorial {
+    justify-content: space-evenly;
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+
+.video-tutorial-title {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin: 10px -15px 0 0;
+}
+
+.tutorial-drescription {
+    margin: 0 0 15px 0;
+    font-size: .80rem;
+    padding: 0;
+
+}
+
+.video-tutorial,
+.video-tutorial-second {
+    width: 130px;
+    border-radius: 8px;
+    padding: 0 20px;
+    position: absolute;
+    background-color: rgba(42, 45, 45, 0.338);
+    margin-top: -230px;
+    margin-left: 200px;
+}
+
+.video-tutorial-second {
+    margin-top: -680px;
+    margin-left: 580px;
+
+}
+
+/* change Your Habit related style */
+.section-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.change-habit-container {
+    margin-top: 70px;
+}
+
+.display-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 40px;
+    text-align: center;
+}
+
+.habit-details {
+    padding: 0 300px;
+}
+
+.habit-drescription {
+    padding: 0;
+    margin-top: 0;
+}
+
+.change-habit-item img {
+    border-radius: 100%;
+}
+
+.movement-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.movement-drescription {
+    padding: 0;
+}
